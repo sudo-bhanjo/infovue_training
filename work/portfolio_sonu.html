@@ -11,7 +11,11 @@
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="../res/assets/images/favicon.ico" />
+    <!-- data tables css -->
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css">
+    
 
+    
     <!-- Bootstrap Css -->
     <link
       href="../res/assets/css/bootstrap.min.css"
@@ -1259,7 +1263,7 @@
                   <div class="card-body">
                     <h4 class="card-title mb-4">My Projects</h4>
                     <div class="table-responsive">
-                      <table class="table table-nowrap table-hover mb-0">
+                      <table id="myTable" class="table table-nowrap table-hover mb-0">
                         <thead>
                           <tr>
                             <th scope="col">#</th>
@@ -1300,7 +1304,14 @@
                             <td>$122</td>
                           </tr>
                         </tbody>
+                        <script>
+                          $(document).ready(function(){
+                          $("#myTable").dataTable();
+                        });
+                        
+                        </script>
                       </table>
+                     
                     </div>
                   </div>
                 </div>
@@ -1418,6 +1429,14 @@
     <div class="rightbar-overlay"></div>
 
     <!-- JAVASCRIPT -->
+
+    <!-- j query -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <!-- data tables JS-->
+
+    <script src="//cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+    
     <script src="../res/assets/libs/jquery/jquery.min.js"></script>
     <script src="../res/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../res/assets/libs/metismenu/metisMenu.min.js"></script>
