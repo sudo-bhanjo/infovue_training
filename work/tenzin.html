@@ -17,6 +17,17 @@
         <!-- App Css-->
         <link href="../res/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
+        <link href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"></script>
+
+
     </head>
 
     <body data-sidebar="light">
@@ -710,7 +721,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title mb-4">My Projects</h4>
                                         <div class="table-responsive">
-                                            <table class="table table-nowrap table-hover mb-0">
+                                            <table id="exampleTable" class="table table-nowrap table-hover mb-0">
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">number</th>
@@ -757,10 +768,9 @@
                                     </div>
                                 </div>
                                 <script>
-                                    $(document).ready(function () {
-                                      $.noConflict();
-                                      var table = $("#myTable").DataTable();
-                                    });
+                                    $(document).ready(function() {
+        $('#exampleTable').DataTable();
+    } );
                                   </script>
                             </div>
                         </div>
@@ -845,6 +855,8 @@
 
         <!-- JAVASCRIPT -->
         <script src="//cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.js"></script>
+
 
         <script src="../res/assets/libs/jquery/jquery.min.js"></script>
         <script src="../res/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
