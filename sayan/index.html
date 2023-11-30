@@ -36,7 +36,7 @@
             <div class="navbar-header">
                 <div class="d-flex">
                     <!-- LOGO -->
-                    <div class="navbar-brand-box">
+                    <div class="navbar-brand-box" style="text-align: left;">
                         <a href="index-2.html" class="logo logo-dark">
                             <span class="logo-sm">
                                 <img src="assets/images/logo.svg" alt="" height="22">
@@ -55,36 +55,10 @@
                             </span>
                         </a>
                     </div>
-
-
-                    <!-- App Search-->
-
                 </div>
 
                 <div class="d-flex">
-                    <div class="dropdown d-inline-block d-lg-none ms-2">
-                        <button type="button" class="btn header-item noti-icon waves-effect"
-                            id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            <i class="mdi mdi-magnify"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                            aria-labelledby="page-header-search-dropdown">
 
-                            <form class="p-3">
-                                <div class="form-group m-0">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Search ..."
-                                            aria-label="Recipient's username">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="submit"><i
-                                                    class="mdi mdi-magnify"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
 
                     <div class="dropdown d-inline-block">
                         <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
@@ -125,57 +99,6 @@
                         </div>
                     </div>
 
-                    <div class="dropdown d-none d-lg-inline-block ms-1">
-                        <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <i class="bx bx-customize"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                            <div class="px-lg-2">
-                                <div class="row g-0">
-                                    <div class="col">
-                                        <a class="dropdown-icon-item" href="#">
-                                            <img src="assets/images/brands/github.png" alt="Github">
-                                            <span>GitHub</span>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-icon-item" href="#">
-                                            <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
-                                            <span>Bitbucket</span>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-icon-item" href="#">
-                                            <img src="assets/images/brands/dribbble.png" alt="dribbble">
-                                            <span>Dribbble</span>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="row g-0">
-                                    <div class="col">
-                                        <a class="dropdown-icon-item" href="#">
-                                            <img src="assets/images/brands/dropbox.png" alt="dropbox">
-                                            <span>Dropbox</span>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-icon-item" href="#">
-                                            <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
-                                            <span>Mail Chimp</span>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="dropdown-icon-item" href="#">
-                                            <img src="assets/images/brands/slack.png" alt="slack">
-                                            <span>Slack</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="dropdown d-none d-lg-inline-block ms-1">
                         <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
@@ -184,12 +107,6 @@
                     </div>
 
                     <div class="dropdown d-inline-block">
-                        <button type="button" class="btn header-item noti-icon waves-effect"
-                            id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            <i class="bx bx-bell bx-tada"></i>
-                            <span class="badge bg-danger rounded-pill">3</span>
-                        </button>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
                             aria-labelledby="page-header-notifications-dropdown">
                             <div class="p-3">
@@ -292,27 +209,17 @@
                             <!-- item-->
                             <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i>
                                 <span key="t-profile">Profile</span></a>
-                            <a class="dropdown-item" href="#"><i
-                                    class="bx bx-wallet font-size-16 align-middle me-1"></i> <span key="t-my-wallet">My
-                                    Wallet</span></a>
+
                             <a class="dropdown-item d-block" href="#"><span
                                     class="badge bg-success float-end">11</span><i
                                     class="bx bx-wrench font-size-16 align-middle me-1"></i> <span
                                     key="t-settings">Settings</span></a>
-                            <a class="dropdown-item" href="#"><i
-                                    class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span
-                                    key="t-lock-screen">Lock screen</span></a>
+
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item text-danger" href="#"><i
                                     class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span
                                     key="t-logout">Logout</span></a>
                         </div>
-                    </div>
-
-                    <div class="dropdown d-inline-block">
-                        <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
-                            <i class="bx bx-cog bx-spin"></i>
-                        </button>
                     </div>
 
                 </div>
@@ -339,7 +246,7 @@
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="dropdown float-end">
+                                    <!-- <div class="dropdown float-end">
                                         <a href="#" class="dropdown-toggle arrow-none" data-bs-toggle="dropdown"
                                             aria-expanded="false">
                                             <i class="mdi mdi-dots-vertical m-0 text-muted h5"></i>
@@ -348,7 +255,7 @@
                                             <a class="dropdown-item" href="#">Edit</a>
                                             <a class="dropdown-item" href="#">Delete</a>
                                         </div>
-                                    </div> <!-- end dropdown -->
+                                    </div> end dropdown -->
 
                                     <h4 class="card-title mb-4">Upcoming</h4>
                                     <div id="task-1">
@@ -514,21 +421,6 @@
                 </div><!-- /.modal-dialog -->
             </div><!-- /.modal -->
 
-
-            <footer class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> © Skote.
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by Themesbrand
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
         <!-- end main content-->
 
@@ -584,6 +476,20 @@
 
         </div> <!-- end slimscroll-menu-->
     </div>
+    <footer class="footer" style="left: 0;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <script>document.write(new Date().getFullYear())</script> © Skote.
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-sm-end d-none d-sm-block">
+                        Design & Develop by Themesbrand
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- /Right-bar -->
 
     <!-- Right bar overlay-->
@@ -595,19 +501,19 @@
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
-
+    
     <!-- dragula plugins -->
     <script src="assets/libs/dragula/dragula.min.js"></script>
-
+    
     <!-- jquery-validation -->
     <script src="assets/libs/jquery-validation/jquery.validate.min.js"></script>
-
+    
     <script src="assets/js/pages/task-kanban.init.js"></script>
-
+    
     <script src="assets/js/pages/task-form.init.js"></script>
-
+    
     <script src="assets/js/app.js"></script>
-    <script src="./kanban_todo.js"></script>
+    <script src="./kanban-todo.js"></script>
 </body>
 
 <!-- Mirrored from themesbrand.com/skote-django/layouts/tasks-kanban.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Apr 2021 19:48:18 GMT -->
