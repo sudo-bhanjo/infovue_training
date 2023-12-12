@@ -1,6 +1,6 @@
 <?php
 include('db.php');
-$baseUri = 'http://localhost/infovue/sayan/day_4/server/api.php';
+$baseUri = 'http://localhost/server/api.php';
 
 header("Content-Type:application/json");
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
